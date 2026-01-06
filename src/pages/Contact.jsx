@@ -21,7 +21,7 @@ export default function Contact() {
     setStatus("sending");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/contact/", {
+      const response = await fetch("https://portfolio-backend-7-5e78.onrender.com/api/contact/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
