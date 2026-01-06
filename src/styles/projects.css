@@ -1,0 +1,111 @@
+/* Section layout */
+.projects-section {
+  padding: 5rem 1.5rem;
+}
+
+.projects-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+.section-subtitle {
+  color: #14b8a6;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0.5rem 0 3rem;
+}
+
+/* Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Project card */
+.project-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Tags */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  background: #f1f5f9;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+}
+
+/* Sections */
+.project-section {
+  margin-bottom: 1rem;
+}
+
+.project-section h4 {
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.project-section p {
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+/* Buttons */
+.project-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.project-buttons a {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border: 1px solid #cbd5f5;
+  color: #0f172a;
+}
+
+.project-buttons a.primary {
+  background: #14b8a6;
+  color: white;
+  border: none;
+}
+
+/* Footer link */
+.projects-footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.projects-footer a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 500;
+}

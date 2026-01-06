@@ -1,0 +1,58 @@
+.home {
+  max-width: 800px;
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.intro {
+  color: #14b8a6;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+.role {
+  font-size: 1.75rem;
+  color: #475569;
+  margin: 0.5rem 0;
+}
+
+.description {
+  margin-top: 1rem;
+  color: #475569;
+}
+
+.home-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.primary-btn {
+  background: #14b8a6;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+}
+
+.secondary-btn {
+  border: 1px solid #cbd5f5;
+  background: transparent;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+}
+.secondary-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.primary-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
