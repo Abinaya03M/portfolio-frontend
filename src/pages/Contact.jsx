@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../styles/contact.css";
-
+ import emailjs from "emailjs-com";
 export default function Contact() {
   const [form, setForm] = useState({
     name: "",
@@ -14,29 +14,34 @@ export default function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("sending");
 
-    try {
-      const response = await fetch("https://portfolio-backend-7-5e78.onrender.com/api/contact/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
-      });
+const handleSubmit = (e) => {
+  e.preventDefault();
+  setStatus("sending");
 
-      if (response.ok) {
+  emailjs
+    .send(
+      "service_ug9pxjp",      // replace
+      "template_haarb94",     // replace
+      {
+        name: form.name,
+        email: form.email,
+        message: form.message,
+      },
+      "I5TPAB29B2Ffd8XaR"       // replace
+    )
+    .then(
+      () => {
         setStatus("success");
         setForm({ name: "", email: "", message: "" });
-      } else {
+      },
+      (error) => {
+        console.error(error);
         setStatus("error");
       }
-    } catch (error) {
-      setStatus("error");
-    }
-  };
+    );
+};
+
 
   return (
     <section className="contact-section">
