@@ -1,16 +1,124 @@
-# React + Vite
+Full Stack Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Full Stack Portfolio Website built using React.js and Django REST Framework, with an integrated contact form using EmailJS and full deployment.
 
-Currently, two official plugins are available:
+🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Frontend (Vercel):
+👉 https://portfolio-frontend-smoky-nine.vercel.app
 
-## React Compiler
+⚙ Backend (Render):
+👉 https://portfolio-backend-7-5e78.onrender.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 Tech Stack
+Frontend
 
-## Expanding the ESLint configuration
+React.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+HTML5
+
+CSS3
+
+JavaScript
+
+EmailJS (for contact form emails)
+
+Backend
+
+Django
+
+Django REST Framework
+
+SQLite (database)
+
+REST API
+
+Deployment
+
+Vercel (Frontend)
+
+Render (Backend)
+
+✨ Features
+
+📄 Multi-page layout (Home, About, Skills, Projects, Contact)
+
+📱 Fully responsive design
+
+📩 Working contact form with email notifications
+
+🗄 Stores messages in backend database
+
+🔐 CORS enabled for frontend-backend communication
+
+🌍 Deployed and accessible online
+
+🧠 What I Learned
+
+React component-based architecture
+
+Connecting frontend with backend using REST APIs
+
+Handling CORS issues
+
+Using EmailJS for client-side email sending
+
+Deployment using Vercel and Render
+
+Environment variable configuration
+
+Full-stack project structure
+
+📂 Project Structure
+Frontend
+portfolio-frontend/
+ ├─ src/
+ │   ├─ pages/
+ │   ├─ components/
+ │   ├─ styles/
+ │   └─ App.jsx
+ └─ package.json
+
+Backend
+server/
+ ├─ contact/
+ │   ├─ models.py
+ │   ├─ views.py
+ │   ├─ serializers.py
+ │   └─ urls.py
+ ├─ server/
+ │   └─ settings.py
+ └─ manage.py
+
+⚙ Setup Instructions (Local)
+Frontend
+npm install
+npm run dev
+
+Backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+📬 Contact
+
+If you would like to connect or give feedback:
+
+📧 Email: abinaya03m@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/abinaya-m-367408353
+
+⭐ Acknowledgements
+
+React Documentation
+
+Django REST Framework
+
+EmailJS
+
+Vercel & Render
+
+📌 Author
+
+Abinaya M
+Aspiring Full Stack Developer & Data Analyst
