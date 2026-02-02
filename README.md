@@ -104,7 +104,7 @@ python manage.py runserver
 
 If you would like to connect or give feedback:
 
-📧 Email: abinaya03m@gmail.com
+📧 Email: abiabinaya03m@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/abinaya-m-367408353
 
